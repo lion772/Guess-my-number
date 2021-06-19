@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+html {
+  font-size: 110%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+.header-container {
+  width: 100%;
+  height: 200px;
+}
+
+hr {
+  width: 100%;
+  border: 8px solid gray;
+  border-width: 8px;
+  border-style: solid none none;
+}
+
+#rule {
+  font-size: 70%;
+  float: right;
+  margin-top: 54px;
+}
+
+h1 {
+  float: left;
+  margin: 0 70px;
+  transform: translate(6%);
+}
+
+.again {
+  float: left;
+  margin-top: 45px;
+  border: 4px gray solid;
+  padding: 10px;
+}
+
+.interrogation {
+  background-color: #eee;
+  width: 160px;
+  height: 120px;
+  border: 4px gray solid;
+  padding: 6px 0 0 8px;
+  color: rgb(190, 185, 179);
+  font-size: 420%;
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  top: 28%;
+  z-index: 1;
+}
+
+.enterNumber {
+  margin-top: 100px;
+  margin-left: 80px;
+  width: 20%;
+  float: left;
+}
+
+.enterNumber button {
+  margin-left: 43px;
+  padding: 10px;
+}
+
+input {
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+#output {
+  float: right;
+  width: 40%;
+  text-align: left;
+  transform: translate(0, -120px);
+}
