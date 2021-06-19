@@ -10,92 +10,8 @@
       integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>My game</title>
-
-    <style>
-      @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-
-      html {
-        font-size: 110%;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: 'Press Start 2P', sans-serif;
-      }
-
-      .header-container {
-        width: 100%;
-        height: 200px;
-      }
-
-      hr {
-        width: 100%;
-        border: 8px solid gray;
-        border-width: 8px;
-        border-style: solid none none;
-      }
-
-      #rule {
-        font-size: 70%;
-        float: right;
-        margin-top: 54px;
-      }
-
-      h1 {
-        float: left;
-        margin: 0 70px;
-        transform: translate(6%);
-      }
-
-      #again {
-        float: left;
-        margin-top: 45px;
-        border: 4px gray solid;
-        padding: 10px;
-      }
-
-      #interrogation {
-        background-color: #eee;
-        width: 120px;
-        height: 120px;
-        border: 4px gray solid;
-        padding: 0 20px 0 20px;
-        color: rgb(190, 185, 179);
-        font-size: 80px;
-        position: absolute;
-        left: 45%;
-        top: 28%;
-        z-index: 1;
-      }
-
-      .enterNumber {
-        margin-top: 100px;
-        margin-left: 80px;
-        width: 20%;
-        float: left;
-      }
-
-      .enterNumber button {
-        margin-left: 43px;
-        padding: 10px;
-      }
-
-      input {
-        padding: 18px;
-        width: 100%;
-        text-align: center;
-        display: block;
-      }
-
-      #output {
-        float: right;
-        width: 40%;
-        text-align: left;
-        transform: translate(0, -120px);
-      }
-    </style>
   </head>
 
   <body>
@@ -103,10 +19,10 @@
       <header>
         <div class="container">
           <div class="header-container">
-            <button id="again">Again!</button>
+            <button class="again">Again!</button>
             <p id="rule">(between 1 and 20)</p>
             <h1>GUESS MY NUMBER</h1>
-            <div id="interrogation">?</div>
+            <div class="interrogation">?</div>
           </div>
           <hr />
         </div>
